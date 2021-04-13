@@ -1,0 +1,177 @@
+.bg-main {
+    background-color: #191a16;
+}
+
+/*#21221d
+#262721*/
+
+.adn-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+.adn-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.adn-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.adn-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.adn-content {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.adn-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.pt-6 {
+    padding-top: 15rem !important;
+}
+
+.team-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+      max-width: 75%;
+    }
+    
+    .pt-xl-10 {   
+        padding-top: 20rem !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .text-center-xl {
+      text-align: center !important;
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 2px solid #6c757d;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #6c757d;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+
+#whatwedo h2::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 1rem auto;
+}
+#ourservices h2::after {
+    content: '';
+    display: block;
+    width: 11rem;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 1rem auto;
+}
+#trustedby h2::after {
+    content: '';
+    display: block;
+    width: 14rem;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 1rem auto;
+}
+#team h2::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 1rem auto;
+}
+#newsletter h2::after {
+    content: '';
+    display: block;
+    width: 17rem;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 1rem auto;
+}
+#contactus h2::after {
+    content: '';
+    display: block;
+    width: 14rem;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 1rem auto;
+}
