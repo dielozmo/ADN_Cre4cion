@@ -58,6 +58,14 @@ module.exports = {
             template: './src/privacy/index.html',
             filename: './privacy/index.html'
         }),
+        new HtmlWebpackPlugin({
+            template: './src/blog/index.html',
+            filename: './blog/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/blog/proyecto-bim/index.html',
+            filename: './blog/proyecto-bim/index.html'
+        }),
         new MiniCssExtractPlugin({
             filename: '[name].css',
             ignoreOrder: false
