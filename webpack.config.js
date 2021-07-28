@@ -66,6 +66,10 @@ module.exports = {
             template: './src/blog/proyecto-bim/index.html',
             filename: './blog/proyecto-bim/index.html'
         }),
+        new HtmlWebpackPlugin({
+            template: './src/blog/digitalizacion-inalcanzable/index.html',
+            filename: './blog/digitalizacion-inalcanzable/index.html'
+        }),
         new MiniCssExtractPlugin({
             filename: '[name].css',
             ignoreOrder: false
